@@ -1,0 +1,121 @@
+.hero{
+    min-height: 75vh;
+    width: 100%;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px 100px;
+    background-image: url('https://res.cloudinary.com/edifice-solutions/image/upload/v1723168288/Gray_Minimalist_New_Collection_Banner_qfma1d.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    overflow-x: hidden;
+}
+
+.contents{
+    max-width: 50%;
+}
+
+.content-title{
+    font-size:45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color:black;
+
+}
+
+.content-para{
+    font-size:16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 30px;
+    
+    
+
+}
+
+.content-btn{
+    background-color: #F8A418;
+    color: black;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size:16px;
+    padding:12px 25px;
+}
+
+.content-btn:hover{
+    transition: background-color 0.8s ease, transform 0.8s ease; 
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size:16px;
+    padding:12px 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    /* Your mobile-specific styles go here */
+    .hero{
+        min-height: 60vh;
+        width: 100%;
+        background-color:aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:40px 60px;
+        background-image: url('https://res.cloudinary.com/edifice-solutions/image/upload/v1723168288/Gray_Minimalist_New_Collection_Banner_qfma1d.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+        overflow: hidden;
+        
+    }
+
+
+    .contents{
+        max-width: 75%;
+    }
+    
+    .content-title{
+        font-size:25px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+        line-height: 1.2;
+        color:black;
+    
+    }
+    
+    .content-para{
+        font-size:14px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.5;
+        text-align: justify;
+        margin-top: 30px;
+        padding-right: 30px;
+        
+        
+    
+    }
+    
+
+    .content-btn{
+        background-color: #F8A418;
+        color: black;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size:14px;
+        padding:6px 18px;
+    }
+    
+
+
+  }

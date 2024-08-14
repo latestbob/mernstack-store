@@ -1,0 +1,33 @@
+
+
+.cart-img{
+    width:80px;
+}
+
+.cart-title{
+    font-size:13px;
+    font-weight: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.others {
+    font-size:13px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -12px;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    /* .cartpix {
+        display: flex;
+        flex-direction: column;
+        
+    
+    } */
+   
+    
+  }
+  

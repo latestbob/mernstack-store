@@ -1,0 +1,85 @@
+.footer{
+    width: 100%;
+    min-height: 20vh;
+    background-color: black;
+    padding:50px 100px;
+    overflow: hidden;
+}
+
+.logo{
+    font-size:25px;
+    font-weight: 900;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerpara{
+    font-size:15px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.contact {
+    color:white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.email{
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .footer{
+        width: 100%;
+        min-height: 20vh;
+        background-color: black;
+        padding:50px 100px;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .logo{
+        font-size:18px;
+        font-weight: 900;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 15px;
+    }
+    
+    .footerpara{
+        font-size:14px;
+        color: white;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    .contact {
+        color:white;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    .email{
+        color:white;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    
+    
+     
+    
+  }
+  

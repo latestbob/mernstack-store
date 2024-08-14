@@ -1,0 +1,58 @@
+
+.navbar{
+  width: 100%;
+  overflow: hidden;
+}
+.logo{
+    font-size:25px;
+    font-weight: 900;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo:hover{
+    color:#F8A418; 
+
+    font-size:24px;
+    transition: color 0.8s ease, transform 0.8s ease; 
+}
+
+.navbg{
+    background-color: black;
+    color:white;
+}
+
+.add-to-cart {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .item-count {
+    position: absolute;
+    top: -10px;  
+    right: -10px; 
+    background-color: white;
+    color: black;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .cart-icon {
+
+    font-size:25px;
+    color:#F8A418; 
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* Your mobile-specific styles go here */
+
+
+  .logo:hover{
+    color:#F8A418; 
+
+    font-size:22px;
+    transition: color 0.8s ease, transform 0.8s ease; 
+}
+  }

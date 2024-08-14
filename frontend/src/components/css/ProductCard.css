@@ -1,0 +1,108 @@
+.productcard {
+
+ min-height: fit-content;
+    background-color: rgba(248, 246, 246, 0.732);
+    border-radius: 10px;
+    min-width: fit-content;
+   
+}
+
+.myimage {
+    width: 180px;
+    transition: width 0.6s ease, transform 0.6s ease; 
+}
+
+.myimage:hover{
+    width: 200px;
+    
+    transform: scale(1.1);
+}
+
+
+.product-title{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.0;
+}
+
+.price{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.0;
+}
+
+.addtocart {
+    background: #F8A418;
+    color:black;
+    padding :8px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight:500;
+    transition: background-color 0.6s ease, transform 0.6s ease; 
+
+}
+
+.addtocart:hover {
+    color:white;
+    background-color:black;
+    padding :8px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight:500;
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .productcard {
+
+        min-height: fit-content;
+           background-color: rgba(248, 246, 246, 0.732);
+           border-radius: 10px;
+           min-width: fit-content;
+          
+       }
+       
+       .myimage {
+           width: 120px;
+           transition: width 0.6s ease, transform 0.6s ease; 
+       }
+
+       .myimage:hover{
+   
+        
+        transform: scale(1.0);
+    }
+
+    .product-title{
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 0.8;
+    }
+    
+    .price{
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.0;
+    }
+    
+    .addtocart {
+        background: #F8A418;
+        color:black;
+        padding :6px 18px;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight:500;
+        transition: background-color 0.6s ease, transform 0.6s ease; 
+    
+    }
+    
+     
+    
+  }
+  

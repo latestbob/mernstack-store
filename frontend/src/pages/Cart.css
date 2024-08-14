@@ -1,0 +1,193 @@
+.mainsection {
+    min-height: 80vh;
+    padding:50px 100px;
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
+.cart-display{
+    min-height: 50vh;
+    background-color: white;
+    padding:30px 50px;
+   
+}
+
+.intro{
+    font-size:22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.display {
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cartsummary{
+    min-height: 53vh;
+    background-color: white;
+    padding:20px 40px;
+   
+}
+.summmary{
+    font-size:22px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.sum{
+    font-size:18px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+
+
+.addtocart {
+    background: #F8A418;
+    color:black;
+    padding :10px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight:500;
+    transition: background-color 0.6s ease, transform 0.6s ease; 
+
+
+}
+
+.addtocart:hover {
+    color:white;
+    background-color:black;
+    padding :10px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight:500;
+
+}
+
+.continue-two {
+    background: black;
+    color:white;
+    padding :10px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight:500;
+    transition: background-color 0.6s ease, transform 0.6s ease; 
+
+
+}
+
+.continue-two:hover {
+    background: #F8A418;
+    color:black;
+    padding :10px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight:500;
+    transition: background-color 0.6s ease, transform 0.6s ease; 
+
+
+}
+
+.continue{
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.continue:hover{
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#F8A418;
+    font-weight: bold;
+}
+
+.inputerror{
+    font-size:12px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+
+.icon {
+    font-size:60px;
+}
+
+.complete-para{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .mainsection {
+        min-height: 60vh;
+        padding:20px 00px;
+        margin-top: 100px;
+        background-color: aliceblue;
+    }
+    
+    .cart-display{
+        min-height: 50vh;
+        background-color: white;
+        padding:30px 50px;
+       
+    }
+    
+    .intro{
+        font-size:20px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    .display {
+        font-size:14px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .cartsummary{
+        min-height: 20vh;
+        background-color: white;
+        padding:20px 40px;
+       
+    }
+    .summmary{
+        font-size:20px;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    .sum{
+        font-size:16px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    
+    }
+    
+    
+    
+    .addtocart {
+        background: #F8A418;
+        color:black;
+        padding :8px 30px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight:500;
+        transition: background-color 0.6s ease, transform 0.6s ease; 
+    
+    
+    }
+    
+    
+    
+  }
